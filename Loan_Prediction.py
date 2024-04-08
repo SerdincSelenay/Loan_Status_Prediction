@@ -16,6 +16,7 @@ from sklearn.svm import SVC
 from catboost import CatBoostClassifier
 import joblib
 
+print("Hello World")
 
 warnings.simplefilter(action='ignore', category=FutureWarning)
 warnings.simplefilter("ignore", category=ConvergenceWarning)
